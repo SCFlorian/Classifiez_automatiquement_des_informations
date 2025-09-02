@@ -9,5 +9,8 @@ Le travail consiste à explorer les données, tester plusieurs modèles de machi
 ### Problématique
 L'objectif ici est :
 - de préparer une analyse exploratoire afin de déterminer les différences entre les salariés ayant démissionné et ceux qui sont encore dans l’entreprise.
-- de réaliser des tests des différentes modèles supervisés
-- la détermination des facteurs principaux impactant le plus le modèle
+- de réaliser des tests des différentes modèles supervisés.
+- la détermination des facteurs principaux impactant le plus le modèle.
+
+### Données utilisées
+- Trois fichiers csv de l'enteprise : extrait_eval.csv / extrait_sirh.csv / extrait_sondage.csv
