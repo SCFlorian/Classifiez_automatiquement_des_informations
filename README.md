@@ -13,4 +13,4 @@ L'objectif ici est :
 - la détermination des facteurs principaux impactant le plus le modèle.
 
 ### Données utilisées
-- Trois fichiers csv de l'enteprise : extrait_eval.csv / extrait_sirh.csv / extrait_sondage.csv
+- Trois fichiers csv de l'entreprise : extrait_eval.csv / extrait_sirh.csv / extrait_sondage.csv
