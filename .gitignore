@@ -1,0 +1,45 @@
+# =========================================
+# Fichiers spécifiques au projet
+# =========================================
+
+# Environnements / gestionnaires
+.venv/
+.env
+.venv*/
+.poetry/
+poetry.lock
+uv.lock
+.python-version
+
+# Ne PAS ignorer README.md
+# README.md
+
+# =========================================
+# Python
+# =========================================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Temporaires / logs
+*.log
+*.tmp
+*~
+
+# Notebooks
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# =========================================
+# Données (à adapter)
+# =========================================
+# Si tu ne veux PAS versionner les CSV bruts :
+# Data/Raw/*
+# !Data/Raw/README.md
+
+# ====================================
+# Fichiers sensibles (à adapter selon ton projet)
+.env
+secrets.txt
