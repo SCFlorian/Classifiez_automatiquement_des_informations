@@ -16,4 +16,5 @@ dependencies = [
     "seaborn>=0.13.2",
     "kaleido>=0.2.1",
     "xgboost>=3.0.4",
+    "catboost>=1.2.8",
 ]
