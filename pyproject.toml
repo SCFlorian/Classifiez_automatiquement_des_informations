@@ -17,4 +17,5 @@ dependencies = [
     "kaleido>=0.2.1",
     "xgboost>=3.0.4",
     "catboost>=1.2.8",
+    "shap>=0.48.0",
 ]
