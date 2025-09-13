@@ -110,18 +110,14 @@ def scaler_ou_non():
     return features_a_scaler, features_encodees
 
 # FONCTION POUR GENERATION DES MODELES
-def modelisation(
+def generate_full_model_evaluation(
     model,
-    train_path="../Data/Processed/train_data_df.csv",
-    test_path="../Data/Processed/test_data_df.csv",
+    train_data_df,
+    test_data_df,
     target_col="a_quitte_l_entreprise",
     n_splits=3,
     n_jobs=-1
 ):
-    # Charger les splits figés
-    train_data_df = pd.read_csv(train_path)
-    test_data_df = pd.read_csv(test_path)
-
     X_train = train_data_df.drop(columns=[target_col])
     y_train = train_data_df[target_col]
 
