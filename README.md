@@ -25,6 +25,7 @@ Après traitement, les données sont séparées en :
 - test_data_df.csv (jeu de test)
 
 ### Organisation du projet
+```
 ├── Data
 │   ├── Raw/          # Données brutes (csv fournis par l’entreprise)
 │   └── Processed/    # Données nettoyées et préparées
@@ -42,7 +43,7 @@ Après traitement, les données sont séparées en :
 ├── utils.py          # Fonctions utilitaires
 ├── README.md         # Documentation du projet
 └── pyproject.toml    # Dépendances et configuration
-
+```
 ### Installation et utilisation
 1. Cloner le projet :
 ``` 
